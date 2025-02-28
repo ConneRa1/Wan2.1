@@ -12,7 +12,9 @@ try:
     FLASH_ATTN_2_AVAILABLE = True
 except ModuleNotFoundError:
     FLASH_ATTN_2_AVAILABLE = False
-
+    
+FLASH_ATTN_3_AVAILABLE = False
+FLASH_ATTN_2_AVAILABLE = False
 import warnings
 
 __all__ = [
